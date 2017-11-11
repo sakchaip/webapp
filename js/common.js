@@ -23,7 +23,7 @@ $g.browser = (function(){
 })();
 $g.screen = {"width":screen.width,"height":screen.height};
 $g.display = {"width":window.innerWidth,"height":window.innerHeight};
-//$g.element = function(id){{"width":document.getElementById(id).offsetWidth,"height":document.getElementById(id).innerHeight}};
+$g.element = function(id){{"width":document.getElementById(id).offsetWidth,"height":document.getElementById(id).offsetHeight}};
 function importScript(url) {
     var script = document.createElement("script"); // Make a script DOM node
     script.src = url; // Set it's src to the provided URL

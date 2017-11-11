@@ -1,5 +1,4 @@
 //-- e-Analytics --\\
-alert('Check');
 $g={};
 $g.browser = (function(){
     var ua= navigator.userAgent, tem,
